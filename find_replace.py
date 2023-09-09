@@ -1,0 +1,13 @@
+s = input('Enter your name : ')
+
+print()
+print(s.capitalize())
+print("Your name have")
+print(s.count('a'))
+print(s.count('e'))
+print(s.count('i'))
+print(s.count('so'))
+print(s.count('u'))
+print(s.find('so'))
+print(s.index('so'))
+print(s.replace('chai','sak'))
