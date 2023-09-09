@@ -1,2 +1,2 @@
 # Python
-Code of this folder created by NattiiZ.s30011 for PrombSolving Sec-3
+Code of this folder created by Nattawut.s30011 for Problem Solving Section-3
