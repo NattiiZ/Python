@@ -1,0 +1,12 @@
+s = input("Enter string : ")
+
+print()
+print("String is alpha =", s.isalpha())
+print("String is alpha and numeric =", s.isalnum())
+print("String is numeric =", s.isnumeric())
+print("Stirng is decimal =", s.isdecimal())
+print("String is digit =", s.isdigit())
+print("String is lower =", s.islower())
+print("String is upper =", s.isupper())
+print("String is space =", s.isspace())
+print("String is title =", s.istitle())
