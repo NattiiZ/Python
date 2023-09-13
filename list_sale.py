@@ -11,7 +11,7 @@ def main():
         elif sale == -1.0:
             loop = False
 
-    Totals = sum(Sales)
+    Totals = toSum(Sales)
     Rate = checkRate(Totals)
     Commission = Totals * Rate
     print(f'Total sales : {Totals}')
@@ -19,6 +19,12 @@ def main():
     print(f'Total commission : {Commission}')
     print()
 
+
+def toSum(Sales):
+    total = 0.0
+    for sale in Sales:
+        total += sale
+    return(total)
 
 
 def checkRate(sale):
