@@ -24,7 +24,7 @@ def displayData(scores,sub):
         for s in (score):
             print(f'| %3s ' %s, end='')
         print('| ', end='')
-        print(f'%3.1f' %(round(sum(score)/sub,1)), end='')
+        print(f'%3.2f' %(round(sum(score)/sub,1)), end='')
         print(' | ', end='')
         print(f'%3d' %(max(score)), end='')
         print(' | ', end='')
